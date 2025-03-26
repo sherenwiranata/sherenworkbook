@@ -166,7 +166,7 @@ function collectCoin() {
       let userChoice = confirm(`🎉 Congratulations! You found Week ${coinValue} content! 🎉\n\nClick "OK" to open or "Cancel" to close.`);
 
       if (userChoice) {
-        window.location.href = `weekly_content/week_${coinValue}.html`; // Change this URL as needed
+        window.location.href = `week_${coinValue}.html`; // Change this URL as needed
       }
     }
   }
